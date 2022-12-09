@@ -1,0 +1,92 @@
+Practical list: 
+
+1. Enter any string and sort it. (Use string class for string handling) 
+
+2. Create an array of ten names and sort them. (Use string class for string handling) 
+
+3. Enter 10 numbers and do the following operations using functions: 
+a. sorting 
+b. searching 
+c. deletion 
+d. updation 
+
+4. Write a program to check whether a given string is a palindrome? 
+
+5. Print a given matrix in spiral form. Example: 
+Input: {{1, 2, 3, 4}, 
+{5, 6, 7, 8}, 
+{9, 10, 11, 12}, 
+{13, 14, 15, 16 }} 
+Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10 
+
+6. An array of integers is given, both +ve and -ve. You need to find the two elements such 
+that their sum is closest to zero. 
+Example: 
+int arr[] = {1, 60, -10, 70, -80, 85}; 
+For the above array, program should print -80 and 85. 
+
+7. Write a class for the following scenario and run it. 
+The employees have four attributes: id, name, salary, and company name. Initialize id, 
+name, and salary at the time of object creation. The list of methods is given as void setID(int) - to set the employee’s ID. 
+void setName(string) - to set the employee’s name 
+void setSalary(int) - to set the employee’s salary.
+void setCompany_name(string)- to set the employee’s company name 
+int getId()-to get the employee’s id 
+string getName()-to get the employee’s name. 
+int getSalary()-to get the employee’s salary. 
+string getCompany_name()-to get the employee’s company name. 
+If employees are considered from the same company, then use an efficient memory 
+management technique to handle company name. 
+8. Write a program to construct objects of a class with provided initial values. Also, 
+demonstrate the copy constructor. 
+
+9. Write a program that counts the total number of objects created for any given class. 
+
+10. If you want to access private members of a class, then what are the options? Use 
+examples to demonstrate. 
+11. Write a program to create objects at the time of run. Also, write code to delete objects 
+dynamically. 
+12. Write a program to overload the ++ operator for the following scenario. 
+Class A 
+Attributes are as follows: int a=1, b=2, c=3. 
+Overload the ++ operator (for both prefix and postfix) so that when you apply it to an 
+object of class A, it increases the values of all attributes by one. For this example, the 
+answer will be 
+a=2, b=3 and c=4 
+13. Overload the binary operator + to add the integer attribute values of two objects. 
+14. Overload the binary operator + to add two strings. 
+15. Create base class with attributes name, age and roll_number. Consider name as private, 
+age as protected, and roll_number as public. Write various child programs that inherit 
+base class in different access modes like private protected and public and show the 
+accessibility of various attributes. 
+16. Write a Base class having two attributes int x, int y. Write child class having void 
+sum(int x, int y) function to add two provided values. You have to initialize base class’s 
+attributes with the help of child class object and then use sum method to add the values. 
+Also write a show() method in child to show the result. 
+Hint: Use parameterized constructor. 
+17. Write a program to copy the value of one object to another. 
+18. Write a program to demonstrate diamond’s problem. Also update the same program to 
+resolve it. 
+19. Write a program having a number of sum () methods which are used to sum the provided 
+arguments. Also write a show() method to show the result. 
+20. Write a program to demonstrate late binding. 
+21. Write a program to demonstrate pure virtual functions and abstract classes. 
+22. If Parent and child classes are there and pointer of parent is referring to the object of 
+child then how virtual destructor of parent plays an important role? Write a program to 
+demonstrate the scenario. 
+Note: 
+1. Output of each program is required. 
+2. Always start a new program from the next page, otherwise it will not be considered. 
+3. Provide page number. 
+4. In footer always mention your name, class roll number and your section. 
+5. Practical number and name must be mentioned on top of page. 
+Practical No. 5 
+Print a given matrix in spiral form. Example: 
+Input: {{1, 2, 3, 4}, 
+{5, 6, 7, 8}, 
+{9, 10, 11, 12}, 
+{13, 14, 15, 16 }} 
+Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10 
+ Source Code: 
+#include<iostream> 
+.............................................. 
