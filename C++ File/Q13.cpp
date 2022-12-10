@@ -6,22 +6,19 @@ using namespace std;
 class pyro
 {
 private:
-    int x,y,z;
+    int x;
 public:
-    pyro(int a,int b,int c){x=a;y=b;z=c;}
-    void operator +()//prefix
+    pyro(int a){x=a;}
+    int operator + (pyro &p)
     {
-          
+          return(x + (p.x));
     }
 
 };
 
 int main()
 {
-    pyro py(100,100,100);
-    py.show();
-    ++py;
-    py.show();
-    py++;
-    py.show();
+    pyro py(100);
+    pyro px(200);
+    cout<<"The sum is :"<<py+px<<endl;
 }
