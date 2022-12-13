@@ -58,9 +58,9 @@ int main()
 
     // child2 c2;
     // c2.set();             Cannot access as it is inherited protected visibility mode
-    // c2.display();
+    // c2.display();         
 
     child3 c3;
     c3.set();
     c3.display();
-    
+}
