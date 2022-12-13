@@ -1,16 +1,32 @@
-/*22. If Parent and child classes are there and pointer of parent is referring to the object of 
-child then how virtual destructor of parent plays an important role? Write a program to 
-demonstrate the scenario. 
-Note: 
-1. Output of each program is required. 
-2. Always start a new program from the next page, otherwise it will not be considered. 
-3. Provide page number. 
-4. In footer always mention your name, class roll number and your section. 
-5. Practical number and name must be mentioned on top of page. 
-Practical No. 5 
-Print a given matrix in spiral form. Example: 
-Input: {{1, 2, 3, 4}, 
-{5, 6, 7, 8}, 
-{9, 10, 11, 12}, 
-{13, 14, 15, 16 }} 
-Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10 */
+/* If Parent and child classes are there and pointer of parent is referring to the object of 
+// child then how virtual destructor of parent plays an important role? Write a program to demonstrate the scenario. */
+
+#include<iostream>  
+using namespace std;  
+class Base  
+{                              
+    public: 
+        Base() // Constructor function.   
+    {  cout<< "\n Constructor Base class";  }  
+
+    ~Base() // Destructor function   
+    {   cout<< "\n Destructor Base class";  }  
+
+};  
+  
+class Derived: public Base  
+{  
+    public:
+        Derived() // Constructor function   
+    {  cout << "\n Constructor Derived class" ;  }
+    
+    ~Derived() // Destructor function   
+    {  cout << "\n Destructor Derived class" ; } /* Destructor function is not called to release its space. */ 
+
+};  
+
+int main()  
+{  
+    Base *bptr = new Derived; // Create a base class pointer object   
+       delete bptr; /* delete the space occupied by the destructor.*/  
+}    
