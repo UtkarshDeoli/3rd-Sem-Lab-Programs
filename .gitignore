@@ -1,4 +1,4 @@
 
 *.exe
-.vscode/settings.json
+.vscode
 C++ File/tempCodeRunnerFile.cpp
