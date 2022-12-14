@@ -1,0 +1,18 @@
+List of DS Practical
+1.	Write a C program to Implementation Stack Using Array.
+2.	Write a C program to Implementation queue Using Array.
+3.	Write a C program to convert infix expression into postfix expression.
+4.	Write a C program to evaluate any postfix expression.
+5.	Create a Single Linked List with  pointers  left &   right where new nodes are always added after the  right. Then user will input a key that should be searched in the linked list & the element having the key value should be deleted & linked list should be updated. If element is not found, then a message "Unsuccessful Search" should be displayed.
+6.	Write a program to search a node from a linked list. 	
+7.	Doubly Linked List: Write a C program to implement doubly linked list with following operations i) Insert   ii) delete   ii) display
+8.	Circular linked list: Write a C program to implement Circular linked list with following operations: i) Insert   ii) delete   ii) display 
+9.	Write a C program to implement Stack Using inked List.	
+10.	Write a program to implement queue using double pointers.	
+11.	Write a C program to implement Queue Using Linked List.
+12.	Write a C program to sort an array using Merge Sort technique.
+13.	Write a C program to sort an array using Quick Sort technique.	
+14.	Write a C program to implement Hashing.
+15.	Write a program to sort array using heap sort.
+16.	Write a C program to create Binary search tree and perform following operations on it. i) Insert node ii) Delete node iii) Search node.	
+17.	Execute simple graph traversals algorithms (DFS and BFS).	
