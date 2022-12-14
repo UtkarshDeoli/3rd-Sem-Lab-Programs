@@ -11,5 +11,5 @@ int main()
         cin>>s[i];
     sort(s,s+10);
     for(int i=0;i<10;i++)
-        cout<<s[i]<<endl;
+        cout<<s[i]<<"   ";
 }
