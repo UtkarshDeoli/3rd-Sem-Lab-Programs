@@ -1,0 +1,1 @@
+//Q11.Write a C program to implement Kurskal’s algorithm

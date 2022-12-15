@@ -1,0 +1,1 @@
+/*Q10. Write a C program to implement DFS.*/
