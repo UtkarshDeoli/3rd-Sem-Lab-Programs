@@ -1,0 +1,67 @@
+B.Tech CSE III Sem
+Term Work - Data structure
+using 'c' –language
+
+
+Date of Submission: 20-12-2022
+
+
+NOTES: 
+ 1. Term Work should contain front Page containing GEHU logo.
+ 2. There should be Top, Left, Right and Bottom Margins. 
+ 3. Index page/s should be properly filled.
+ 4. Write algorithm for each problem on A4 size bond paper
+ 4. Output of each program should be on separate page.
+ 5. All page must contain page number.
+ 
+Note: 1. Use function for all problems.
+2. Do not use global variables/pointers.
+Q1.Write a C Program to store N elements to an array and then send all positive elements of the 
+ array to the end without altering the original sequence.
+ 
+Q2.Write a C program to create two linked lists positive and negative from a Original linked list, 
+ so that positive linked list contains all positive elements and negative linked list contains 
+ negative elements. Positive and negative linked lists should use the node of existing original 
+ linked list. 
+Q3.Write a C program to create a linked list P, then write a ‘C’ function named split to 
+ create two linked lists Q & R from P So that Q contains all elements in odd positions of 
+ P and R contains the remaining elements. Finally print both linked lists i.e. Q and R.
+Q4.Write a program to add of two polynomials of degree n, using linked list
+ For example p1=anx
+n
++an-1x
+n-1
++ an-2x
+n-2
++ …….. a0
+x
+0
+ P2=bnx
+n
++bn-1x
+n-1
++ bn-2x
+n-2
++ …….. b0
+x
+0
+ p1 = first polynomial 
+ p2 = second polynomial
+ Find out p3= p1+p2
+Q5.Wriet a C program to implement time sharing environment (using circular linked list) for N 
+ processes, where CPU allocates time slots of 10ns for given N processes, then print which 
+ process will be completed in how much time.
+Q6.Write a C program to create a double linked list by inserting nodes in such a way that the 
+ resultant linked list remains in ascending order.(do not use any sorting technique).
+Q7. Write a C program to create a binary search tree and perform following operations:
+ 1) Search a particular key. 
+ 2) Delete a node from the tree.
+ 3) Find total number of leaf nodes 
+ 4) Find height of a binary search tree
+ 5) Count total numbers of nodes from right hand side of root node
+Q8. Write a C program to sort an unsorted sequence of strings given by user in an array, using 
+ Merge sort technique.
+Q9. Write a C program to implement linked representation of a graph in memory using array of 
+ pointers.
+Q10. Write a C program to implement DFS.
+Q11.Write a C program to implement Kurskal’s algorithm
